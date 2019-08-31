@@ -1,0 +1,74 @@
+body {
+    font-family: Luminari, fantasy;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #216851;
+}
+.content{
+    max-width: 55%;
+    background-color: #4fd58e;
+    margin: auto;
+    padding: 10%;
+    padding-top: 3%;
+}
+/* Style the header */
+header {
+    background-color: #4fd58e;
+    text-align: center;
+    font-size: 150%;
+    color: black;
+}
+.logo
+{
+    width:128px;
+    height:128px;
+}
+
+/* Style the navigation menu */
+.nav_bar {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    background: #4fd58e;
+    font-size: 20px;
+}
+
+.items>h2{
+    font-weight: bold;
+    text-decoration: underline;
+}
+.subitems>h3{
+    text-decoration: underline;
+    font-weight: bold;
+    padding-left:5%;
+}
+.type{
+    padding-left: 10%;
+    font-weight: bold;
+}
+div.flavor{
+    padding-left:5%;
+}
+.des{
+    font-weight: normal;
+}
+
+.submit {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+  }
+
+@media (max-width: 600px) {
+    section {
+        -webkit-flex-direction: column;
+        flex-direction: column;
+    }
+}
+
+</style>

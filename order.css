@@ -1,0 +1,20 @@
+body {
+    font-family: Luminari, fantasy;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #4fd58e;
+}
+.content{
+    max-width: 75%;
+    background-color: #4fd58e;
+    margin: auto;
+    padding: 5%;
+    padding-top: 1%;
+}
+/* Style the header */
+header {
+    background-color: #4fd58e;
+    text-align: center;
+    font-size: 35px;
+    color: black;
+}
+

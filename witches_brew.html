@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Menu Page</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" media="all" href="witches_brew.css">
+</head>
+
+<body>
+  <div class="content">
+    <header>
+      <h1>Witches Brewing Co.
+        <img class="logo" src="images\Logo.png" alt="Logo Icon">
+      </h1>
+    </header>
+    <nav class="nav_bar">
+        <h3>
+          <a href="/html/">Potions</a>
+         <!--<a href="/css/">Povisions</a>--> 
+          <a href="witches_brew_copy.php/">Cart <img src="images\cart.png" alt="Logo Icon" style="widows: 50px;height:50px;"></a>
+        </h3>
+    </nav>
+
+    <form class="items" action="witches_brew_copy.php">
+      <h2>Potions</h2>
+      <div class="subitems">
+        <h3>The Hyper Witch</h3>
+        <div class="type">
+          <h3>Expresso</h3>
+          <div class="flavor">
+
+            <label for="Mocha">Mocha:</label>
+            <p class="des"> Made with rich chocolate and your choice of Milk</p>
+
+            <label for="Latte">Latte:</label>
+            <p class="des"> Just your standard Milky Expresso</p>
+
+            <label for="Americano">Americano</label>
+            <p class="des"> The Italians added the water first</p>
+          </div>
+
+          <h3>Coffee</h3>
+          <div class="flavor">
+            <label for="LightRoast">Light Roast:</label>
+            <p class="des"> This bean juice is the lightest we could find</p>
+            
+            <label for="MediumRoast"> Medium Roast:</label>
+            <p class="des"> It's the Goldilocks, not too light and not too dark.</p>
+            
+            <label for="DarkRoast"> Dark Roast:</label>
+            <p class="des"> Is something burning?</p>
+          </div>
+        </div>
+        <h3>The Tranquil Witch</h3>
+        <div class="type">
+          <h3>Brewed Solution</h3>
+          <div class="flavor">
+
+            <label for="WitchBrew"> Witch's Brew:</label>
+            <p class="des"> This unique tea is an earthy-mint blend first produced by our founder</p>
+
+            <label for="IceyBrew">Icey Brew:</label> 
+            <p class="des"> Witch's Brew+Simple Syrup+Ice=Delicious</p>
+
+            <label for="HotCoco">Hot Coco:</label> 
+            <p class="des"> Coco with your choice of Milk, topped with whipped cream and coco shavings</p>
+          </div>
+
+          <h3>Chilled Solution</h3>
+          <div class="flavor">
+            <label for="ColdCoco">Cold Coco:</label> 
+            <p class="des"> It's Chocolate Milk. It's Just Chocolate Milk</p>
+
+            <label for="AppleElixir">Apple Elixir:</label> 
+            <p class="des">The Juice of an Apple</p>
+
+            <label for="OrangeElixir">Orange Elixir:</label>
+            <p class="des"> The Juice of an Apple</p>
+          </div>
+        </div>
+      </div>
+
+      <!---
+      <h2>Provision</h2>
+      <div class="subitems">
+        <h3>Cauldron of Delectables</h3>
+        <div class="type">
+          <h3>SandWitches</h3>
+          <div class="flavor">
+            <p>Early Riser:</p>
+            <p class="des"> Chedder, two slices of bacon, and a fried egg stacked between an english muffin</p>
+            <p>New Yorker:</p>
+            <p class="des"> open faced everthing bagel smeared with cream cheese, cucumber, tomato, red onion, and lox
+            </p>
+            <p>All-But-Grits:</p>
+            <p class="des"> Chedder, fried egg, sausage, bacon, and hashbrowns with maple drizzle stuffed in a crispy
+              butter waffle</p>
+            <p>Chicken Cesar Sandwichs:</p>
+            <p class="des"> Parmesan cheese, lightly seasoned grilled chicken, iceburd lettace sandwiched in slices of
+              toasted rye and topped with Cesar drizzle</p>
+            <p>The BLAT:</p>
+            <p class="des"> Bacon, lettace, avocado, tomato on sourdough slices. Because California</p>
+            <p>Grilled Meat & Cheese:</p>
+            <p class="des"> This cheesy melt is filled with chedder, grilled onions and mushrooms, and a beef patty.
+              Want chicken instead? Mention it in our special requests section</p>
+          </div>
+          <h3>Mini Concoctions</h3>
+          <div class="flavor">
+            <p>Cheese Quiche:</p>
+            <p class="des"> What it says is what it is </p>
+            <p>Spinach Quiche:</p>
+            <p class="des">Quiches are a simple dish</p>
+            <p>Artichoke Quiche:</p>
+            <p class="des"> Simple, yet delicious </p>
+          </div>
+        </div>
+        <h3>Cauldron of Delights</h3>
+        <div class="type">
+          <h3>SandWitches</h3>
+          <div class="flavor">
+            <p>Sweet Tooth:</p>
+            <p class="des"> Bananas, stawberries, blackberries, whipped cream, maple drizzle in between a crispy
+              buttered waffle topped with bananas, stawberries, blackberries, whipped cream, maple drizzle, and powdered
+              sugar </p>
+            <p>Brain Freeze:</p>
+            <p class="des"> A scoop of stawberry and a scoop of vanilla ice cream sandwiched in our rich brownie topped
+              with chocolate drizzle and powdered sugar</p>
+          </div>
+          <h3>Mini Concoctions</h3>
+          <div class="flavor">
+            <p>Poison Apple Empanada:</p>
+            <p class="des">A caramel apple empanada topped with caramel drizzle</p>
+            <p>Dark Guava Empanada:</p>
+            <p class="des">This empanada has a blackberry guava filling and is topped with powdered sugar</p>
+            <p>Sweet Lemon Tart:</p>
+            <p class="des"> Standard lemon tart topped with strawberrries, blackberries, and powdered sugar</p>
+            <p>Cherry Berry Pie:</p>
+            <p class="des"> It's a mini pie filled with cherry, blackberry, and raspberry</p>
+          </div>
+        </div>
+      </div>
+    -->
+      <label for="submit"></label>
+      <input type="submit" value="Order now" class="submit">
+    </form>
+</body>
+
+</html>
